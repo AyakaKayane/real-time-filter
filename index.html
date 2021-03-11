@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+        <h3>リアルタイムフィルター
+        <span>入力した文字を含まない要素は非表示となります</span></h3>
+        
+        <!--テキスト入力ボックス-->
+        <input type="text" id="inputtext"
+        size=100px placeholder="キーワードを入力して下さい">
+        
+        
+        
+        <!--画像が表示される全体の箱-->
+        <div class="pic-screen">
+            
+            <!--芝犬の画像の箱-->
+            <div class="pic-small-screen">
+                <img src="https://free-materials.com/adm/wp-content/uploads/2019/01/adpDSC_2005-750x500.jpg">
+                <p class="keywords">☆キーワード☆</p>
+                <div class="keywords-list">
+                    <p>柴犬</p>
+                    <p>しばいぬ</p>
+                    <p>イヌ</p>
+                    <p>shibainu</p>
+                </div>
+            </div>
+            
+            <!--狸の画像の箱-->
+            <div class="pic-small-screen">
+                <img src="https://i.pinimg.com/originals/53/34/2f/53342fdb3b461808427e301503c52714.jpg">
+                <p class="keywords">☆キーワード☆</p>
+                <div class="keywords-list">
+                    <p>狸</p>
+                    <p>たぬき</p>
+                    <p>タヌキ</p>
+                    <p>tanuki</p>
+                </div>
+            </div>
+            
+            <!--モモンガの画像の箱-->
+            <div class="pic-small-screen">
+                <img src="https://thumb.photo-ac.com/ae/ae8b7f7979bdf4b54d97c1ac5c12a459_t.jpeg">
+                <p class="keywords">☆キーワード☆</p>
+                <div class="keywords-list">
+                    <p>ももんが</p>
+                    <p>モモンガ</p>
+                    <p>momonnga</p>
+                </div>
+            </div>
+            
+            <!--スライムの画像の箱-->
+            <div class="pic-small-screen">
+                <img src="https://i.pinimg.com/originals/37/ac/fc/37acfcd66b57dc4ac0392d57bfebf54a.jpg">
+                <p class="keywords">☆キーワード☆</p>
+                <div class="keywords-list">
+                    <p>すらいむ</p>
+                    <p>スライム</p>
+                    <p>suraimu</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        <script src="main.js"></script>
+</html>

@@ -1,0 +1,52 @@
+body {
+    padding: 0 30px;
+}
+
+
+/*タイトル*/
+span {
+  display: block;
+  font-size: 13px;
+}
+
+
+/*画像*/
+img {
+  padding-top: 20px;
+  width: 250px;
+  height: 250px;
+  /*画像を中央でトリミング*/
+  object-fit: cover; 
+}
+
+.pic-screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pic-small-screen {
+  width: 45%;
+  height: auto;
+  margin: 20px 0;
+  
+}
+
+
+/*キーワード関係*/
+
+.keywords {
+    margin: 15px 0px -10px 15px;
+    font-size: 13px;
+}
+
+.keywords-list {
+    display: flex;
+    margin-left: 15px;
+}
+
+.keywords-list p {
+    display: inline-block;
+    padding-right: 10px;
+}
